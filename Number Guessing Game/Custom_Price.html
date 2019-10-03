@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Choose Custom Size</title>
+
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 50%;
+            max-width: 800px;
+            min-width: 480px;
+            margin: 0 auto;
+        }
+
+        .lastResult {
+            color: white;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Choose Custom Size</h1>
+
+    <div class="form">
+        <label for="Custom_Width">Enter Width: </label><input type="number" id="Custom_Width" class="Custom_Width">
+        <label for="Custom_Height">Enter Height: </label><input type="number" id="Custom_Height" class="Custom_Height">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+        // Your JavaScript goes here
+        const Custom_Width = document.querySelector('.Custom_Width');
+        const Custom_Height = document.querySelector('.last');
+
+        }
+    </script>
+</body>
+
+</html>
